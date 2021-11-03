@@ -1,7 +1,7 @@
 import React from "react";
 import './../styles/sectionHeroTop.css';
-import videoMp4 from '../sources/video/videoMp4.mp4';
-import videoWebm from '../sources/video/videoWebm.webm';
+import videoMp4 from './../sources/video/videoMp4.mp4';
+import videoWebm from './../sources/video/videoWebm.webm';
 import SectionHeroBottom from "./SectionHeroBottom";
 
 
