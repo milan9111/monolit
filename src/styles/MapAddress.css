@@ -1,0 +1,34 @@
+.mapAddress {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mapAddress iframe {
+  width: 1600px;
+  height: 150px;
+  border: none;
+}
+
+@media (max-width: 1200px) {
+  .mapAddress iframe {
+    width: 1990px;
+  }
+}
+
+@media (max-width: 992px) {
+  .mapAddress iframe {
+    width: 990px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mapAddress iframe {
+    width: 753px;
+  }
+}
+
+@media (max-width: 576px) {
+  .mapAddress iframe {
+    width: 400px;
+  }
+}
