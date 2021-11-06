@@ -1,0 +1,30 @@
+.navigationRigth {
+    &__up {
+        text-align: end;
+        margin-top: -57px;
+        margin-right: 45px;
+        position: sticky;
+        bottom: 30px;
+        z-index: 100;
+        @media (max-width: 768px) {
+            display: none;
+        }
+      }
+    &__link {
+        color: #ff0018;
+        font-size: 38px;
+    }
+    &__link:hover {
+        cursor: pointer;
+        color: rgb(115, 119, 115);
+        transition: 0.1s;
+    }
+    &__link:active {  
+        color: #ff0018;
+        transition: 0.1s;
+    }
+      
+}
+
+
+

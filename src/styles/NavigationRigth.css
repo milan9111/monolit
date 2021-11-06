@@ -1,0 +1,33 @@
+.navigationRigth__up {
+  text-align: end;
+  margin-top: -57px;
+  margin-right: 45px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 30px;
+  z-index: 100;
+}
+
+@media (max-width: 768px) {
+  .navigationRigth__up {
+    display: none;
+  }
+}
+
+.navigationRigth__link {
+  color: #ff0018;
+  font-size: 38px;
+}
+
+.navigationRigth__link:hover {
+  cursor: pointer;
+  color: #737773;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.navigationRigth__link:active {
+  color: #ff0018;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}

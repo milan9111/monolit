@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from 'react';
 import Header from './components/Header';
 import SectionHeroTop from './components/SectionHeroTop';
 import PhotoGallery from './components/PhotoGallery';
@@ -7,10 +8,20 @@ import Contacts from './components/Contacts';
 import './styles/app.css';
 import MapAddress from './components/MapAddress';
 import Footer from './components/Footer';
+import NavigationRigth from './components/NavigationRigth';
 
 
  
 function App() {
+
+  const [offset, setOffset] = useState(0);
+  
+  useEffect(() => {
+    window.onscroll = () => {
+      setOffset(window.pageYOffset)
+    }
+  }, []);
+  
   return (
     <>
     <Header />
@@ -21,6 +32,7 @@ function App() {
          <Price />
          <Contacts />
          <MapAddress />
+         <NavigationRigth offset={offset}/>
       </main>
     <Footer />
     </>
