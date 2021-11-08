@@ -40,7 +40,7 @@ const Contacts = (props) => {
                                     <a href="mailto:monolitgym120@gmail.com">monolitgym120@gmail.com</a>
                                 </div>
                                 <div className="address__site">
-                                    <a href="www.monolitgym.dp.ua">www.monolitgym.dp.ua</a>
+                                    <a href="https://www.monolitgym.dp.ua">www.monolitgym.dp.ua</a>
                                 </div>
                         </address>
                         <div className="contacts__timetable">
