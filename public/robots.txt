@@ -6,3 +6,6 @@ Disallow:
 
 User-agent: Googlebot-image
 Disallow:
+
+Sitemap: https://www.monolitgym.dp.ua/sitemap.xml
+
