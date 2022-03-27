@@ -25,7 +25,12 @@ function App() {
          <PhotoGallery/>
          <PhotoGalleryText />
          <Price />
+         <Contacts />
+         <Reviews />
+         <MapAddress />
+         <NavigationRigth />
       </main>
+    <Footer />
     </>
   );
 }

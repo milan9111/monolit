@@ -2,7 +2,7 @@ import React from "react";
 import './../styles/PhotoGallery.css';
 import { Carousel } from 'react-bootstrap';
 import slide1 from './../sources/images/slide1.jpg';
-import slide2 from './../sources/images/slide2.jpg';
+import slide2 from './../sources/images/slide2.jpeg';
 import slide3 from './../sources/images/slide3.jpg';
 import slide4 from './../sources/images/slide4.jpg';
 import slide5 from './../sources/images/slide5.jpg';
