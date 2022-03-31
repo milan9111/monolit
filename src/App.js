@@ -12,6 +12,7 @@ import MapAddress from './components/MapAddress';
 import NavigationRigth from './components/NavigationRigth';
 
 import Footer from './components/Footer';
+import Banner from './components/Banner';
 
 
  
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <>
+    <Banner />
     <Header />
       <main className='main'>
          <SectionHeroTop />

@@ -1,0 +1,97 @@
+.banner {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #0066ff, #f3ef00);
+    padding-top: 5px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    @media (max-width: 1200px) {
+        max-width: 1200px;
+    }
+    @media (max-width: 992px) {
+        max-width: 992px;
+    }
+    @media (max-width: 768px) {
+        max-width: 768px;
+    }
+    @media (max-width: 576px) {
+        max-width: none;
+    }
+    a img {
+        width: 300px;
+        @media (max-width: 1200px) {
+            width: 250px;
+        }
+        @media (max-width: 992px) {
+            width: 200px;
+        }
+        @media (max-width: 768px) {
+            width: 150px;
+        }
+        @media (max-width: 576px) {
+            width: 100px;
+        }
+    }
+}
+
+.banner-text {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    @media (max-width: 1200px) {
+        font-size: 20px;
+    }
+    @media (max-width: 992px) {
+        font-size: 18px;
+    }
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
+    @media (max-width: 576px) {
+        font-size: 9px;
+    }
+    @media (max-width: 380px) {
+        font-size: 7px;
+    }
+}
+
+.banner-link {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 15px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: #0066ff;
+    @media (max-width: 1200px) {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+    @media (max-width: 992px) {
+        font-size: 14px;
+        padding: 6px 9px;
+    }
+    @media (max-width: 768px) {
+        font-size: 12px;
+        padding: 4px 6px;
+    }
+    @media (max-width: 576px) {
+        font-size: 10px;
+        padding: 2px 4px;
+    }
+    @media (max-width: 380px) {
+        font-size: 5px;
+    }
+    
+}
+
+.banner-link:hover {
+    text-decoration: none;
+    color: #0066ff;
+    background-color: #f3ef00;
+    transition: 0.3s;
+}

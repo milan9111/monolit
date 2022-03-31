@@ -5,7 +5,7 @@ import './../styles/header.css';
 
 const Header = (props) => {
     return(
-        <header className="header" id="home-scroll">
+        <header className="header">
             <nav className="header__navbar">
                 <Link className="header__item" activeClass="active" to="home-scroll" spy={true} smooth={true} duration={1000} delay={100}>Главная</Link>
                 <Link className="header__item" activeClass="active" to="photo-scroll" spy={true} smooth={true}  duration={1000} delay={100}>Фотогалерея</Link>

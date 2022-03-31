@@ -1,0 +1,158 @@
+.banner {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-image: -webkit-gradient(linear, left top, right top, from(#0066ff), to(#f3ef00));
+  background-image: linear-gradient(to right, #0066ff, #f3ef00);
+  padding-top: 5px;
+  padding-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .banner {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 992px) {
+  .banner {
+    max-width: 992px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner {
+    max-width: none;
+  }
+}
+
+.banner a img {
+  width: 300px;
+}
+
+@media (max-width: 1200px) {
+  .banner a img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 992px) {
+  .banner a img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner a img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner a img {
+    width: 100px;
+  }
+}
+
+.banner-text {
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 1200px) {
+  .banner-text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .banner-text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner-text {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 380px) {
+  .banner-text {
+    font-size: 7px;
+  }
+}
+
+.banner-link {
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 15px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: #0066ff;
+}
+
+@media (max-width: 1200px) {
+  .banner-link {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .banner-link {
+    font-size: 14px;
+    padding: 6px 9px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-link {
+    font-size: 12px;
+    padding: 4px 6px;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner-link {
+    font-size: 10px;
+    padding: 2px 4px;
+  }
+}
+
+@media (max-width: 380px) {
+  .banner-link {
+    font-size: 5px;
+  }
+}
+
+.banner-link:hover {
+  text-decoration: none;
+  color: #0066ff;
+  background-color: #f3ef00;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
