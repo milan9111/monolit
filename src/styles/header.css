@@ -68,7 +68,7 @@
 .header__mobile-toggle {
   display: none;
   position: fixed;
-  top: 32px;
+  top: 82px;
   right: 44px;
   z-index: 50;
 }
