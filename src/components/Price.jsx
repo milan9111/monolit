@@ -19,7 +19,7 @@ const Price = (props) => {
                     </div>
                     <div className="price__item">
                         <span>Утренний безлимит</span>
-                        <span className="price__item_price">- 400 грн/месяц</span>  
+                        <span className="price__item_price">- 450 грн/месяц</span>  
                     </div>
                     <div className="price__item">
                         <span>Школьный безлимит</span>
