@@ -9,13 +9,13 @@ const Contacts = (props) => {
         <section className="contacts" id="contacts-scroll">
             <div className="contacts__container">
                 <div className="contacts__title">
-                    НАШИ КОНТАКТЫ:
+                    НАШІ КОНТАКТИ:
                 </div>
                 <div className="contacts__box">
                         <div className="contacts__logo">
                             <Link to="home-scroll" spy={true} smooth={true} duration={1000}><img src={logo} alt="logo" /></Link>
                             <p>
-                                Наслаждайся жизнью полной здоровья!
+                                Насолоджуйся життям повного здоров'я!
                             </p>
                             <div className="contacts__social-networks">
                                   <div className="social-networks__item">
@@ -31,7 +31,7 @@ const Contacts = (props) => {
                         </div>
                         <address className="contacts__address">
                                 <div className="address__address">
-                                    г. Днепр, ул. Владимира Антоновича, 26
+                                    м. Дніпро, вул. Володимира Антоновича, 26
                                 </div>
                                 <div className="address__tel">
                                     <a href="tel:+380669702554">+380669702554</a>
@@ -45,28 +45,28 @@ const Contacts = (props) => {
                         </address>
                         <div className="contacts__timetable">
                                 <div className="timetable__title">
-                                    График работы:
+                                    Графік работи:
                                 </div>
                                 <div className="timetable__day">
-                                    Понедельник с 10.00 до 21.00
+                                    Понеділок з 10.00 до 21.00
                                 </div>
                                 <div className="timetable__day">
-                                    Вторник с 10.00 до 21.00
+                                    Вівторок з 10.00 до 21.00
                                 </div>
                                 <div className="timetable__day">
-                                    Среда с 10.00 до 21.00
+                                    Середа з 10.00 до 21.00
                                 </div>
                                 <div className="timetable__day">
-                                    Четверг с 10.00 до 21.00
+                                    Четвер с 10.00 до 21.00
                                 </div>
                                 <div className="timetable__day">
-                                    Пятница с 10.00 до 21.00
+                                    П'ятница з 10.00 до 21.00
                                 </div>
                                 <div className="timetable__day">
-                                    Суббота с 10.00 до 17.00
+                                    Субота с 10.00 до 17.00
                                 </div>
                                 <div className="timetable__day">
-                                    Воскресенье с 10.00 до 17.00
+                                    Неділя з 10.00 до 17.00
                                 </div>
                         </div>
                 </div>
