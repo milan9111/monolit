@@ -10,31 +10,31 @@ const PhotoGalleryText = (props) => {
                     У НАС:
                 </div>
                 <div className="PhotoGalleryText__item">
-                    тренажерный зал семейного типа
+                    тренажерний зал сімейного типу
                 </div>
                 <div className="PhotoGalleryText__item">
-                    групповые занятия
+                    групові заняття
                 </div>
                 <div className="PhotoGalleryText__item">
-                    персональные тренировки
+                    персональні тренування
                 </div>
                 <div className="PhotoGalleryText__item">
-                    тренировки с личным тренером
+                    тренування з особистим тренером
                 </div>
                 <div className="PhotoGalleryText__item">
-                    о тренере:
+                    про тренера:
                 </div>
                 <div className="PhotoGalleryText__item">
-                    чемпион мира
+                    чемпіон світу
                 </div>
                 <div className="PhotoGalleryText__item">
-                    неоднократный чемпион Украины
+                    неодноразовий чемпіон України
                 </div>
                 <div className="PhotoGalleryText__item">
-                    абсолютный чемпион по пауэрлифтингу
+                    абсолютний чемпіон з пауерліфтингу
                 </div>
                 <div className="PhotoGalleryText__item">
-                    тренер высшей категории
+                    тренер вищої категорії
                 </div>
             </div>
         </section>
