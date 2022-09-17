@@ -6,16 +6,16 @@ const SectionHeroBottom = (props) => {
     return(
         <div className="sectionHeroBottom">
             <div className="sectionHeroBottom__pretitle">
-            Спортивный комплекс
+            Спортивний комплекс
             </div>
             <div className="sectionHeroBottom__title">
             MONOLIT GYM
             </div>
             <div className="sectionHeroBottom__text-top">
-            Спортивный косплекс предлагает обширный спектр услуг для улучшения физической формы.
+            Спортивний косплекс пропонує широкий спектр послуг для покращення фізичної форми.
             </div>
             <div className="sectionHeroBottom__text-bottom">
-            Наш центр оборудован значительным количеством тренажеров, среди них есть профессиональные кардио-тренажеры для силовых тренировок.
+            Наш центр обладнаний значною кількістю тренажерів, серед них професійні кардіо-тренажери для силових тренувань.
             </div>
         </div>
     );
