@@ -29,7 +29,7 @@ import slide23 from './../sources/images/slide23.jpg';
 const PhotoGallery = (props) => {
     return(
       <section className="photoGallery" id="photo-scroll">
-          <Carousel fade indicators={false} interval={5000} nextLabel='Далее' prevLabel='Назад' pause={false} touch={true}>
+          <Carousel fade indicators={false} interval={5000} nextLabel='Далі' prevLabel='Назад' pause={false} touch={true}>
         <Carousel.Item>
           <img
              
