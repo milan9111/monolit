@@ -9,30 +9,30 @@ const Price = (props) => {
             <div className="price__box">
                 <div className="price__title">
                     <h2>
-                        УCЛУГИ
+                        Послуги
                     </h2>
                 </div>
                 <div className="price__services">
                     <div className="price__item">
-                        <span>Безлимитное посещение</span>
-                        <span className="price__item_price">- 500 грн/месяц</span>  
+                        <span>Безлімітне відвідування</span>
+                        <span className="price__item_price">- 500 грн/місяць</span>  
                     </div>
                     <div className="price__item">
-                        <span>Утренний безлимит</span>
-                        <span className="price__item_price">- 450 грн/месяц</span>  
+                        <span>Ранковий безліміт</span>
+                        <span className="price__item_price">- 450 грн/місяць</span>  
                     </div>
                     <div className="price__item">
-                        <span>Школьный безлимит</span>
-                        <span className="price__item_price">- 350 грн/месяц</span>  
+                        <span>Шкільний безліміт</span>
+                        <span className="price__item_price">- 350 грн/місяць</span>  
                     </div>
                     <div className="price__item">
-                        <span>Студенческий безлимит</span>
-                        <span className="price__item_price">- 400 грн/месяц</span>
+                        <span>Студентський безліміт</span>
+                        <span className="price__item_price">- 400 грн/місяць</span>
                          
                     </div>
                     <div className="price__item">
-                        <span>8 тренировок за 30 дней</span>
-                        <span className="price__item_price">- 400 грн/месяц</span>
+                        <span>8 тренувань за 30 днів</span>
+                        <span className="price__item_price">- 400 грн/місяць</span>
                     </div>
                 </div>
             </div>
