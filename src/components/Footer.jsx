@@ -7,10 +7,10 @@ const Footer = (props) => {
         <footer className="footer">
             <div className="footer__text">
                 <div className="footer__monolit">
-                    <time dateTime="2022">2022</time> © MONOLIT GYM.
+                    <time dateTime="2023">2023</time> © MONOLIT GYM.
                 </div>
                 <div className="footer__creator">
-                    <a href="https://www.linkedin.com/in/vasiliy-zakrghevskyi-5527041b8/" target="_blank">Site created: Vasiliy Zakrghevskyi <i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/vasyl-zakrzhevskyi-5527041b8" rel="noreferrer" target="_blank">Site created: Vasyl Zakrzhevskyi <i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
                 </div>
             </div>
         </footer>
