@@ -12,10 +12,6 @@ const Price = (props) => {
           <div className="price__item">
             <span>Річний абонемент</span>
             <span className="price__item_price">- 4000 грн</span>
-            {/* remove after 01.02.2023 */}
-            <span className="price__item_price" style={{ color: "red" }}>
-              *Акція до 01.02.2023! Для жінок - 3500 грн
-            </span>
           </div>
           <div className="price__item">
             <span>Безлімітне відвідування</span>
