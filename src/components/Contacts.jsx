@@ -48,25 +48,25 @@ const Contacts = (props) => {
                                     Графік работи:
                                 </div>
                                 <div className="timetable__day">
-                                    Понеділок з 10.00 до 21.00
+                                    Понеділок з 10.00 до 22.00
                                 </div>
                                 <div className="timetable__day">
-                                    Вівторок з 10.00 до 21.00
+                                    Вівторок з 10.00 до 22.00
                                 </div>
                                 <div className="timetable__day">
-                                    Середа з 10.00 до 21.00
+                                    Середа з 10.00 до 22.00
                                 </div>
                                 <div className="timetable__day">
-                                    Четвер с 10.00 до 21.00
+                                    Четвер с 10.00 до 22.00
                                 </div>
                                 <div className="timetable__day">
-                                    П'ятниця з 10.00 до 21.00
+                                    П'ятниця з 10.00 до 22.00
                                 </div>
                                 <div className="timetable__day">
-                                    Субота с 10.00 до 17.00
+                                    Субота с 10.00 до 20.00
                                 </div>
                                 <div className="timetable__day">
-                                    Неділя з 10.00 до 17.00
+                                    Неділя з 10.00 до 20.00
                                 </div>
                         </div>
                 </div>
