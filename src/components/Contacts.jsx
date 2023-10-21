@@ -19,13 +19,19 @@ const Contacts = (props) => {
                             </p>
                             <div className="contacts__social-networks">
                                   <div className="social-networks__item">
-                                    <a href="https://www.instagram.com/roman.monolit" target="_blank"><i className="fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a href="https://www.instagram.com/roman.monolit" target="_blank" rel="noreferrer">
+                                        <i className="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
                                   </div>
                                   <div className="social-networks__item">
-                                    <a href="https://www.facebook.com/profile.php?id=100035529167349" target="_blank"><i className="fa fa-facebook-official" aria-hidden="true"></i></a>
+                                    <a href="https://www.facebook.com/profile.php?id=100035529167349" target="_blank" rel="noreferrer">
+                                        <i className="fa fa-facebook-official" aria-hidden="true"></i>
+                                    </a>
                                   </div>
                                   <div className="social-networks__item">
-                                  <a href="https://www.youtube.com/channel/UCcNrnsay-chMGqBo51-JNhg" target="_blank"><i className="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                  <a href="https://www.youtube.com/channel/UCcNrnsay-chMGqBo51-JNhg" target="_blank" rel="noreferrer">
+                                    <i className="fa fa-youtube-play" aria-hidden="true"></i>
+                                  </a>
                                   </div>
                             </div>
                         </div>
@@ -48,25 +54,25 @@ const Contacts = (props) => {
                                     Графік работи:
                                 </div>
                                 <div className="timetable__day">
-                                    Понеділок з 10.00 до 22.00
+                                    Понеділок з 10.00 до 21.30
                                 </div>
                                 <div className="timetable__day">
-                                    Вівторок з 10.00 до 22.00
+                                    Вівторок з 10.00 до 21.30
                                 </div>
                                 <div className="timetable__day">
-                                    Середа з 10.00 до 22.00
+                                    Середа з 10.00 до 21.30
                                 </div>
                                 <div className="timetable__day">
-                                    Четвер с 10.00 до 22.00
+                                    Четвер з 10.00 до 21.30
                                 </div>
                                 <div className="timetable__day">
-                                    П'ятниця з 10.00 до 22.00
+                                    П'ятниця з 10.00 до 21.30
                                 </div>
                                 <div className="timetable__day">
-                                    Субота с 10.00 до 20.00
+                                    Субота з 10.00 до 20.00
                                 </div>
                                 <div className="timetable__day">
-                                    Неділя з 10.00 до 20.00
+                                    Неділя - санітарний день
                                 </div>
                         </div>
                 </div>

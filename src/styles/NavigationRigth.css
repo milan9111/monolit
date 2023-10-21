@@ -2,9 +2,9 @@
   text-align: end;
   margin-top: -57px;
   margin-right: 45px;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   bottom: 30px;
+  right: 15px;
   z-index: 100;
 }
 

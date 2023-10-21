@@ -45,6 +45,7 @@
     }
     &__box {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         padding-bottom: 55px;
         @media (max-width: 1200px) {
@@ -121,14 +122,6 @@
             @media (max-width: 992px) {
                 font-size: 12px;
                 margin-right: 16px;
-            }
-            @media (max-width: 768px) {
-                font-size: 10px;
-                margin-right: 14px;
-            }
-            @media (max-width: 576px) {
-                font-size: 8px;
-                margin-right: 12px;
             }
         }
         i:hover {

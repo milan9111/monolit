@@ -36,6 +36,9 @@ const PhotoGalleryText = (props) => {
                 <div className="PhotoGalleryText__item">
                     тренер вищої категорії
                 </div>
+                <div className="PhotoGalleryText__item" style={{textDecoration: 'underline'}}>
+                    тренажерний зал розташований у цокольному поверсі, що дає змогу безпечно займатися під час повітряних тривог
+                </div>
             </div>
         </section>
     );

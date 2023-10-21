@@ -74,6 +74,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -196,20 +200,6 @@
   .social-networks__item i {
     font-size: 12px;
     margin-right: 16px;
-  }
-}
-
-@media (max-width: 768px) {
-  .social-networks__item i {
-    font-size: 10px;
-    margin-right: 14px;
-  }
-}
-
-@media (max-width: 576px) {
-  .social-networks__item i {
-    font-size: 8px;
-    margin-right: 12px;
   }
 }
 
