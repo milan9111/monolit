@@ -15,23 +15,23 @@ const Price = (props) => {
           </div>
           <div className="price__item">
             <span>Безлімітне відвідування</span>
-            <span className="price__item_price">- 800 грн/місяць</span>
+            <span className="price__item_price">- 900 грн/місяць</span>
           </div>
           <div className="price__item">
             <span>Ранковий безліміт</span>
-            <span className="price__item_price">- 700 грн/місяць</span>
+            <span className="price__item_price">- 850 грн/місяць</span>
           </div>
           <div className="price__item">
             <span>Шкільний безліміт</span>
-            <span className="price__item_price">- 500 грн/місяць</span>
+            <span className="price__item_price">- 700 грн/місяць</span>
           </div>
           <div className="price__item">
             <span>Студентський безліміт</span>
-            <span className="price__item_price">- 650 грн/місяць</span>
+            <span className="price__item_price">- 800 грн/місяць</span>
           </div>
           <div className="price__item">
             <span>8 тренувань за 30 днів</span>
-            <span className="price__item_price">- 700 грн/місяць</span>
+            <span className="price__item_price">- 800 грн/місяць</span>
           </div>
         </div>
       </div>
