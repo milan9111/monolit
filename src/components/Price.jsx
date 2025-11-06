@@ -33,6 +33,10 @@ const Price = (props) => {
             <span>8 тренувань за 30 днів</span>
             <span className="price__item_price">- 870 грн/місяць</span>
           </div>
+          <div className="price__item">
+            <span>Персональне тренування</span>
+            <span className="price__item_price">- 400 грн</span>
+          </div>
         </div>
       </div>
     </section>
