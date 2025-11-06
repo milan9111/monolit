@@ -54,22 +54,22 @@ const Contacts = (props) => {
                                     Графік работи:
                                 </div>
                                 <div className="timetable__day">
-                                    Понеділок з 10.00 до 21.30
+                                    Понеділок з 10.00 до 22.00
                                 </div>
                                 <div className="timetable__day">
-                                    Вівторок з 10.00 до 21.30
+                                    Вівторок з 10.00 до 22.00
                                 </div>
                                 <div className="timetable__day">
-                                    Середа з 10.00 до 21.30
+                                    Середа з 10.00 до 22.00
                                 </div>
                                 <div className="timetable__day">
-                                    Четвер з 10.00 до 21.30
+                                    Четвер з 10.00 до 22.00
                                 </div>
                                 <div className="timetable__day">
-                                    П'ятниця з 10.00 до 21.30
+                                    П'ятниця з 10.00 до 22.00
                                 </div>
                                 <div className="timetable__day">
-                                    Субота з 10.00 до 20.00
+                                    Субота з 10.00 до 16.00
                                 </div>
                                 <div className="timetable__day">
                                     Неділя - санітарний день
